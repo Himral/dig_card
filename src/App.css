@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  background: #23252C;
+  position: absolute;
+  width: 550px;
+  height: 868px;
+  left: 65px;
+  top: 53px;
 }
 
 .App-logo {
@@ -35,4 +40,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MainContent{
+  background: #1A1B21;
+  color:#DCDCDC;
+  padding-left: 131px;
+  padding-right: 102px;
+}
+.about{
+  
+  
+}
+.header{
+  text-align: center;
+  line-height: 15.49px;
 }
