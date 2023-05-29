@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import React  from 'react';
 import About from './components/About'
 import Header from './components/Header'
 import Buttons from './components/Buttons'

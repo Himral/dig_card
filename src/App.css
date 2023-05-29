@@ -1,10 +1,11 @@
 .App {
   background: #23252C;
-  position: absolute;
+  position: relative;
   width: 550px;
   height: 868px;
-  left: 65px;
   top: 53px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .App-logo {
@@ -48,11 +49,67 @@
   padding-left: 131px;
   padding-right: 102px;
 }
-.about{
+
+.header{
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+  text-align: center;
+  line-height: 15.49px;
+}
+
+.header-text{
+  
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-family: 'Inter';
+  font-style: normal;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header-text h3{
+  width: 178.06px;
+  height: 25.81px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 5px;
+  line-height: 30px;
+  margin-bottom: 0px;
   
   
 }
-.header{
-  text-align: center;
-  line-height: 15.49px;
+
+.header-text h4{
+  width: 178.06px;
+  height: 14.19px;
+  margin: 5px 0px;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+
+  color: #F3BF99;
+}
+
+.header-text p{
+  
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin: 5px 0px;
+}
+
+
+/*Buttons */
+.buttonClass{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
 }
