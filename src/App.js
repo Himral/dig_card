@@ -5,6 +5,7 @@ import About from './components/About'
 import Header from './components/Header'
 import Buttons from './components/Buttons'
 import Interests from './components/Interests'
+import Socials from './components/Socials'
 function App() {
   return (
     <div className="App">
@@ -13,8 +14,9 @@ function App() {
           <Buttons />
           <About/>
           <Interests/>
+          
       </div>
-      
+      <Socials/>
     </div>
   );
 }
